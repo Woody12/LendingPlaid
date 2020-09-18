@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BC1AB49BE493243C9A9DC7 /* Pods_LendingPlaidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FAF74A323B2AF8C6E84E8 /* Pods_LendingPlaidTests.framework */; };
+		09448FAE56144E90797830E7 /* Pods_LendingPlaid_LendingPlaidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2619B26C8C14090B07C2C28E /* Pods_LendingPlaid_LendingPlaidUITests.framework */; };
+		4A6E182FEC6913ADDFD07BFD /* Pods_LendingPlaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB9D0FC57A7E4BB129BF430 /* Pods_LendingPlaid.framework */; };
+		65860902251478C6000172B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860901251478C6000172B6 /* AppDelegate.swift */; };
+		65860904251478C6000172B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860903251478C6000172B6 /* SceneDelegate.swift */; };
+		65860906251478C6000172B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860905251478C6000172B6 /* ContentView.swift */; };
+		65860908251478C6000172B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65860907251478C6000172B6 /* Assets.xcassets */; };
+		6586090B251478C6000172B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6586090A251478C6000172B6 /* Preview Assets.xcassets */; };
+		6586090E251478C6000172B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6586090C251478C6000172B6 /* LaunchScreen.storyboard */; };
+		65860919251478C6000172B6 /* LendingPlaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860918251478C6000172B6 /* LendingPlaidTests.swift */; };
+		65860924251478C7000172B6 /* LendingPlaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860923251478C7000172B6 /* LendingPlaidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65860915251478C6000172B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658608F6251478C6000172B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658608FD251478C6000172B6;
+			remoteInfo = LendingPlaid;
+		};
+		65860920251478C7000172B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658608F6251478C6000172B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658608FD251478C6000172B6;
+			remoteInfo = LendingPlaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CD40DBF2D446D3488A7D84 /* Pods-LendingPlaidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaidTests.debug.xcconfig"; path = "Target Support Files/Pods-LendingPlaidTests/Pods-LendingPlaidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2619B26C8C14090B07C2C28E /* Pods_LendingPlaid_LendingPlaidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LendingPlaid_LendingPlaidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658608FE251478C6000172B6 /* LendingPlaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendingPlaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65860901251478C6000172B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65860903251478C6000172B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65860905251478C6000172B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65860907251478C6000172B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6586090A251478C6000172B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6586090D251478C6000172B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6586090F251478C6000172B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65860914251478C6000172B6 /* LendingPlaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendingPlaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65860918251478C6000172B6 /* LendingPlaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingPlaidTests.swift; sourceTree = "<group>"; };
+		6586091A251478C7000172B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6586091F251478C7000172B6 /* LendingPlaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendingPlaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65860923251478C7000172B6 /* LendingPlaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingPlaidUITests.swift; sourceTree = "<group>"; };
+		65860925251478C7000172B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FA024B3F8D966571A43566 /* Pods-LendingPlaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaid.release.xcconfig"; path = "Target Support Files/Pods-LendingPlaid/Pods-LendingPlaid.release.xcconfig"; sourceTree = "<group>"; };
+		6966082C5F1171F8A674F0E8 /* Pods-LendingPlaid-LendingPlaidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaid-LendingPlaidUITests.debug.xcconfig"; path = "Target Support Files/Pods-LendingPlaid-LendingPlaidUITests/Pods-LendingPlaid-LendingPlaidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9519C3AE63BB11F72CC23476 /* Pods-LendingPlaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaid.debug.xcconfig"; path = "Target Support Files/Pods-LendingPlaid/Pods-LendingPlaid.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB9D0FC57A7E4BB129BF430 /* Pods_LendingPlaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LendingPlaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04FE4DB4BE76489130E053 /* Pods-LendingPlaidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaidTests.release.xcconfig"; path = "Target Support Files/Pods-LendingPlaidTests/Pods-LendingPlaidTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8FD757912785B8C47387809 /* Pods-LendingPlaid-LendingPlaidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendingPlaid-LendingPlaidUITests.release.xcconfig"; path = "Target Support Files/Pods-LendingPlaid-LendingPlaidUITests/Pods-LendingPlaid-LendingPlaidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC7FAF74A323B2AF8C6E84E8 /* Pods_LendingPlaidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LendingPlaidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658608FB251478C6000172B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6E182FEC6913ADDFD07BFD /* Pods_LendingPlaid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65860911251478C6000172B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BC1AB49BE493243C9A9DC7 /* Pods_LendingPlaidTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6586091C251478C7000172B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09448FAE56144E90797830E7 /* Pods_LendingPlaid_LendingPlaidUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		658608F5251478C6000172B6 = {
+			isa = PBXGroup;
+			children = (
+				65860900251478C6000172B6 /* LendingPlaid */,
+				65860917251478C6000172B6 /* LendingPlaidTests */,
+				65860922251478C7000172B6 /* LendingPlaidUITests */,
+				658608FF251478C6000172B6 /* Products */,
+				95B7657C2422A118DBB4CF28 /* Pods */,
+				EEB40918A7F49F572248817B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		658608FF251478C6000172B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658608FE251478C6000172B6 /* LendingPlaid.app */,
+				65860914251478C6000172B6 /* LendingPlaidTests.xctest */,
+				6586091F251478C7000172B6 /* LendingPlaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65860900251478C6000172B6 /* LendingPlaid */ = {
+			isa = PBXGroup;
+			children = (
+				65860901251478C6000172B6 /* AppDelegate.swift */,
+				65860903251478C6000172B6 /* SceneDelegate.swift */,
+				65860905251478C6000172B6 /* ContentView.swift */,
+				65860907251478C6000172B6 /* Assets.xcassets */,
+				6586090C251478C6000172B6 /* LaunchScreen.storyboard */,
+				6586090F251478C6000172B6 /* Info.plist */,
+				65860909251478C6000172B6 /* Preview Content */,
+			);
+			path = LendingPlaid;
+			sourceTree = "<group>";
+		};
+		65860909251478C6000172B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6586090A251478C6000172B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65860917251478C6000172B6 /* LendingPlaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				65860918251478C6000172B6 /* LendingPlaidTests.swift */,
+				6586091A251478C7000172B6 /* Info.plist */,
+			);
+			path = LendingPlaidTests;
+			sourceTree = "<group>";
+		};
+		65860922251478C7000172B6 /* LendingPlaidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65860923251478C7000172B6 /* LendingPlaidUITests.swift */,
+				65860925251478C7000172B6 /* Info.plist */,
+			);
+			path = LendingPlaidUITests;
+			sourceTree = "<group>";
+		};
+		95B7657C2422A118DBB4CF28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9519C3AE63BB11F72CC23476 /* Pods-LendingPlaid.debug.xcconfig */,
+				66FA024B3F8D966571A43566 /* Pods-LendingPlaid.release.xcconfig */,
+				6966082C5F1171F8A674F0E8 /* Pods-LendingPlaid-LendingPlaidUITests.debug.xcconfig */,
+				E8FD757912785B8C47387809 /* Pods-LendingPlaid-LendingPlaidUITests.release.xcconfig */,
+				12CD40DBF2D446D3488A7D84 /* Pods-LendingPlaidTests.debug.xcconfig */,
+				DB04FE4DB4BE76489130E053 /* Pods-LendingPlaidTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEB40918A7F49F572248817B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB9D0FC57A7E4BB129BF430 /* Pods_LendingPlaid.framework */,
+				2619B26C8C14090B07C2C28E /* Pods_LendingPlaid_LendingPlaidUITests.framework */,
+				FC7FAF74A323B2AF8C6E84E8 /* Pods_LendingPlaidTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658608FD251478C6000172B6 /* LendingPlaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65860928251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaid" */;
+			buildPhases = (
+				B8ED5275D8FC7D59B56A625F /* [CP] Check Pods Manifest.lock */,
+				658608FA251478C6000172B6 /* Sources */,
+				658608FB251478C6000172B6 /* Frameworks */,
+				658608FC251478C6000172B6 /* Resources */,
+				3DAE5D56398336E24197E930 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LendingPlaid;
+			productName = LendingPlaid;
+			productReference = 658608FE251478C6000172B6 /* LendingPlaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65860913251478C6000172B6 /* LendingPlaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6586092B251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaidTests" */;
+			buildPhases = (
+				B3EC486AC38482DA79056261 /* [CP] Check Pods Manifest.lock */,
+				65860910251478C6000172B6 /* Sources */,
+				65860911251478C6000172B6 /* Frameworks */,
+				65860912251478C6000172B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65860916251478C6000172B6 /* PBXTargetDependency */,
+			);
+			name = LendingPlaidTests;
+			productName = LendingPlaidTests;
+			productReference = 65860914251478C6000172B6 /* LendingPlaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6586091E251478C7000172B6 /* LendingPlaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6586092E251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaidUITests" */;
+			buildPhases = (
+				F1D35D59F9C1067560D16528 /* [CP] Check Pods Manifest.lock */,
+				6586091B251478C7000172B6 /* Sources */,
+				6586091C251478C7000172B6 /* Frameworks */,
+				6586091D251478C7000172B6 /* Resources */,
+				5681332F48D75EE62679AC99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65860921251478C7000172B6 /* PBXTargetDependency */,
+			);
+			name = LendingPlaidUITests;
+			productName = LendingPlaidUITests;
+			productReference = 6586091F251478C7000172B6 /* LendingPlaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658608F6251478C6000172B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Wuthichai Lee";
+				TargetAttributes = {
+					658608FD251478C6000172B6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					65860913251478C6000172B6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 658608FD251478C6000172B6;
+					};
+					6586091E251478C7000172B6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 658608FD251478C6000172B6;
+					};
+				};
+			};
+			buildConfigurationList = 658608F9251478C6000172B6 /* Build configuration list for PBXProject "LendingPlaid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 658608F5251478C6000172B6;
+			productRefGroup = 658608FF251478C6000172B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658608FD251478C6000172B6 /* LendingPlaid */,
+				65860913251478C6000172B6 /* LendingPlaidTests */,
+				6586091E251478C7000172B6 /* LendingPlaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658608FC251478C6000172B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6586090E251478C6000172B6 /* LaunchScreen.storyboard in Resources */,
+				6586090B251478C6000172B6 /* Preview Assets.xcassets in Resources */,
+				65860908251478C6000172B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65860912251478C6000172B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6586091D251478C7000172B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DAE5D56398336E24197E930 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid/Pods-LendingPlaid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid/Pods-LendingPlaid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid/Pods-LendingPlaid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5681332F48D75EE62679AC99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid-LendingPlaidUITests/Pods-LendingPlaid-LendingPlaidUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid-LendingPlaidUITests/Pods-LendingPlaid-LendingPlaidUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LendingPlaid-LendingPlaidUITests/Pods-LendingPlaid-LendingPlaidUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EC486AC38482DA79056261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LendingPlaidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8ED5275D8FC7D59B56A625F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LendingPlaid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D35D59F9C1067560D16528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LendingPlaid-LendingPlaidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658608FA251478C6000172B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65860902251478C6000172B6 /* AppDelegate.swift in Sources */,
+				65860904251478C6000172B6 /* SceneDelegate.swift in Sources */,
+				65860906251478C6000172B6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65860910251478C6000172B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65860919251478C6000172B6 /* LendingPlaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6586091B251478C7000172B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65860924251478C7000172B6 /* LendingPlaidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65860916251478C6000172B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658608FD251478C6000172B6 /* LendingPlaid */;
+			targetProxy = 65860915251478C6000172B6 /* PBXContainerItemProxy */;
+		};
+		65860921251478C7000172B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658608FD251478C6000172B6 /* LendingPlaid */;
+			targetProxy = 65860920251478C7000172B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6586090C251478C6000172B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6586090D251478C6000172B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65860926251478C7000172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65860927251478C7000172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65860929251478C7000172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9519C3AE63BB11F72CC23476 /* Pods-LendingPlaid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LendingPlaid/Preview Content\"";
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LendingPlaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6586092A251478C7000172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FA024B3F8D966571A43566 /* Pods-LendingPlaid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LendingPlaid/Preview Content\"";
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LendingPlaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6586092C251478C7000172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CD40DBF2D446D3488A7D84 /* Pods-LendingPlaidTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				INFOPLIST_FILE = LendingPlaidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendingPlaid.app/LendingPlaid";
+			};
+			name = Debug;
+		};
+		6586092D251478C7000172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB04FE4DB4BE76489130E053 /* Pods-LendingPlaidTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				INFOPLIST_FILE = LendingPlaidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendingPlaid.app/LendingPlaid";
+			};
+			name = Release;
+		};
+		6586092F251478C7000172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6966082C5F1171F8A674F0E8 /* Pods-LendingPlaid-LendingPlaidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				INFOPLIST_FILE = LendingPlaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LendingPlaid;
+			};
+			name = Debug;
+		};
+		65860930251478C7000172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FD757912785B8C47387809 /* Pods-LendingPlaid-LendingPlaidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7926A58VF8;
+				INFOPLIST_FILE = LendingPlaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenapp.LendingPlaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LendingPlaid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658608F9251478C6000172B6 /* Build configuration list for PBXProject "LendingPlaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65860926251478C7000172B6 /* Debug */,
+				65860927251478C7000172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65860928251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65860929251478C7000172B6 /* Debug */,
+				6586092A251478C7000172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6586092B251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6586092C251478C7000172B6 /* Debug */,
+				6586092D251478C7000172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6586092E251478C7000172B6 /* Build configuration list for PBXNativeTarget "LendingPlaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6586092F251478C7000172B6 /* Debug */,
+				65860930251478C7000172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 658608F6251478C6000172B6 /* Project object */;
+}
