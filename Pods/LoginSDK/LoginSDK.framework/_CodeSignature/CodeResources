@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YLTpQN0bn2qkbKJgQawREKMEQNM=
+		RjYUUjDxfZpm26IAknCuQVJpNv8=
 		</data>
 		<key>CredentialDB.momd/Credential.mom</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/LoginSDK-Swift.h</key>
 		<data>
-		aQA+P1MN/vlm4nK6xOqbppa2nao=
+		n/neLh8hzSFfIxs1xooogMnQJ0s=
 		</data>
 		<key>Headers/LoginSDK.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cCSMBMOilMpgnpQg0pXxMjgsTu0=
+		Of/kx659GERmrG7kgSUnz8dpl7M=
 		</data>
 		<key>Modules/LoginSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
@@ -48,45 +48,97 @@
 		<data>
 		TQSoWWDBmiVR5MiTNNI8wCopYsA=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/Project/armv7s-apple-ios.swiftsourceinfo</key>
+		<data>
+		UGMPZzG9B3QqnweCEBVVjfpndOk=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/Project/armv7s.swiftsourceinfo</key>
+		<data>
+		UGMPZzG9B3QqnweCEBVVjfpndOk=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
 		BI717VabYG2c1Qt1+IlzVtDqk2g=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/arm.swiftinterface</key>
+		<data>
+		PIOSKPHcTwyzORFkU8qIjyWbOpw=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		r5DVSqmgNKC/irEBUGUVBeTqfSE=
+		t0U2ah2LaTDwP0UAta1G8hMVDNA=
 		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		9XiKRKYNTZNFF7+GFGR3Yvmvs/E=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		e1/8jMv+GMmSSyVfcFzNG0ox0e8=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		STuvt8zV5YIWF4V42hXA1TCLVBU=
+		FTd4BPnfBUzJ2BIxKej1NzHSsfs=
 		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
 		9XiKRKYNTZNFF7+GFGR3Yvmvs/E=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		e1/8jMv+GMmSSyVfcFzNG0ox0e8=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		STuvt8zV5YIWF4V42hXA1TCLVBU=
+		FTd4BPnfBUzJ2BIxKej1NzHSsfs=
 		</data>
 		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
 		BI717VabYG2c1Qt1+IlzVtDqk2g=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<data>
+		PIOSKPHcTwyzORFkU8qIjyWbOpw=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		r5DVSqmgNKC/irEBUGUVBeTqfSE=
+		t0U2ah2LaTDwP0UAta1G8hMVDNA=
 		</data>
 		<key>Modules/LoginSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
 		BI717VabYG2c1Qt1+IlzVtDqk2g=
 		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7.swiftinterface</key>
+		<data>
+		PIOSKPHcTwyzORFkU8qIjyWbOpw=
+		</data>
 		<key>Modules/LoginSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		r5DVSqmgNKC/irEBUGUVBeTqfSE=
+		t0U2ah2LaTDwP0UAta1G8hMVDNA=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftdoc</key>
+		<data>
+		MJM9yHxXwOlfqhH2a381VvvBxEo=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftinterface</key>
+		<data>
+		cGM9DYELw3LtGyfbB+2vTrc0QIw=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftmodule</key>
+		<data>
+		7ZT2oGdvGrf5hpqEFpBC+qeP5mU=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftdoc</key>
+		<data>
+		MJM9yHxXwOlfqhH2a381VvvBxEo=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftinterface</key>
+		<data>
+		cGM9DYELw3LtGyfbB+2vTrc0QIw=
+		</data>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftmodule</key>
+		<data>
+		7ZT2oGdvGrf5hpqEFpBC+qeP5mU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YLTpQN0bn2qkbKJgQawREKMEQNM=
+			RjYUUjDxfZpm26IAknCuQVJpNv8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lmwm4S8zU2PvsqGHOexeRiK4/iAbymdaWUp3dtI3zNU=
+			eoPFr7qYdTn8pH7CWmHpPSietVgc+pMb5yKt9g0LT+c=
 			</data>
 		</dict>
 		<key>CredentialDB.momd/Credential.mom</key>
@@ -132,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aQA+P1MN/vlm4nK6xOqbppa2nao=
+			n/neLh8hzSFfIxs1xooogMnQJ0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			WdHGKpkKLFNhv7KKNI9zSWayBRm18LiLBDmvUQcGCcY=
+			1M9ILC2CW0lczer9HDU6JoidmFzDhoY3lOWoovwaO6s=
 			</data>
 		</dict>
 		<key>Headers/LoginSDK.h</key>
@@ -205,6 +257,28 @@
 			VI4yRm0hec8a1ZusXmOyagy7I4wyrSQH4Ai7xwVIDnI=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/Project/armv7s-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UGMPZzG9B3QqnweCEBVVjfpndOk=
+			</data>
+			<key>hash2</key>
+			<data>
+			yzCC07uz3W23Y4XxNattRBK0e4AEHRz6WKIDn2+9BUw=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/Project/armv7s.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UGMPZzG9B3QqnweCEBVVjfpndOk=
+			</data>
+			<key>hash2</key>
+			<data>
+			yzCC07uz3W23Y4XxNattRBK0e4AEHRz6WKIDn2+9BUw=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -216,15 +290,26 @@
 			KgHnE/TJ9Px4RWyT4Inl3wzDgvPJkFPNjBA8ydxCgj8=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/arm.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PIOSKPHcTwyzORFkU8qIjyWbOpw=
+			</data>
+			<key>hash2</key>
+			<data>
+			02Ws8bCbUgPeQnQMd6akeMv8/mN7acURHg3Yd41QZP0=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r5DVSqmgNKC/irEBUGUVBeTqfSE=
+			t0U2ah2LaTDwP0UAta1G8hMVDNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTuFH+ZoQA5J+7hig3qej1HgU48tBVnljrxZwqAORFE=
+			CRY/w7vTeG+zq+oyaeeHsRwi/W/29I61gRErQpXwSVA=
 			</data>
 		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -238,15 +323,26 @@
 			+w3s8/RjmLKBUg4PkrUCWBmcPkm9zKN66Xn5WY5gLfk=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e1/8jMv+GMmSSyVfcFzNG0ox0e8=
+			</data>
+			<key>hash2</key>
+			<data>
+			oRUwQbWd2YZL9fXAUssIGlH1oyxjSG88472sIgK6mg4=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			STuvt8zV5YIWF4V42hXA1TCLVBU=
+			FTd4BPnfBUzJ2BIxKej1NzHSsfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sz+ATYygGYUs3sLRJsauwidTlk9MmsGhgiP9id6V9WQ=
+			sWzbFnn3o2JeOQdkDEfZCODTw9XVUmcpNE/m9tzE4pA=
 			</data>
 		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm64.swiftdoc</key>
@@ -260,15 +356,26 @@
 			+w3s8/RjmLKBUg4PkrUCWBmcPkm9zKN66Xn5WY5gLfk=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e1/8jMv+GMmSSyVfcFzNG0ox0e8=
+			</data>
+			<key>hash2</key>
+			<data>
+			oRUwQbWd2YZL9fXAUssIGlH1oyxjSG88472sIgK6mg4=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			STuvt8zV5YIWF4V42hXA1TCLVBU=
+			FTd4BPnfBUzJ2BIxKej1NzHSsfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sz+ATYygGYUs3sLRJsauwidTlk9MmsGhgiP9id6V9WQ=
+			sWzbFnn3o2JeOQdkDEfZCODTw9XVUmcpNE/m9tzE4pA=
 			</data>
 		</dict>
 		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -282,15 +389,26 @@
 			KgHnE/TJ9Px4RWyT4Inl3wzDgvPJkFPNjBA8ydxCgj8=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PIOSKPHcTwyzORFkU8qIjyWbOpw=
+			</data>
+			<key>hash2</key>
+			<data>
+			02Ws8bCbUgPeQnQMd6akeMv8/mN7acURHg3Yd41QZP0=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r5DVSqmgNKC/irEBUGUVBeTqfSE=
+			t0U2ah2LaTDwP0UAta1G8hMVDNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTuFH+ZoQA5J+7hig3qej1HgU48tBVnljrxZwqAORFE=
+			CRY/w7vTeG+zq+oyaeeHsRwi/W/29I61gRErQpXwSVA=
 			</data>
 		</dict>
 		<key>Modules/LoginSDK.swiftmodule/armv7.swiftdoc</key>
@@ -304,15 +422,92 @@
 			KgHnE/TJ9Px4RWyT4Inl3wzDgvPJkFPNjBA8ydxCgj8=
 			</data>
 		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PIOSKPHcTwyzORFkU8qIjyWbOpw=
+			</data>
+			<key>hash2</key>
+			<data>
+			02Ws8bCbUgPeQnQMd6akeMv8/mN7acURHg3Yd41QZP0=
+			</data>
+		</dict>
 		<key>Modules/LoginSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r5DVSqmgNKC/irEBUGUVBeTqfSE=
+			t0U2ah2LaTDwP0UAta1G8hMVDNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTuFH+ZoQA5J+7hig3qej1HgU48tBVnljrxZwqAORFE=
+			CRY/w7vTeG+zq+oyaeeHsRwi/W/29I61gRErQpXwSVA=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJM9yHxXwOlfqhH2a381VvvBxEo=
+			</data>
+			<key>hash2</key>
+			<data>
+			igu7RsWQRhX54uOi18IdhI7tUizXre2LphnqK6fhrGo=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cGM9DYELw3LtGyfbB+2vTrc0QIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			YFNDGk+VabCu6MEuRRkv8rZBpStlR8r6hi+LBqz1zdU=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZT2oGdvGrf5hpqEFpBC+qeP5mU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mwfr9Jc1e+uf6xPc58xk40RXdpYaIna+uKz9rVxvF1c=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJM9yHxXwOlfqhH2a381VvvBxEo=
+			</data>
+			<key>hash2</key>
+			<data>
+			igu7RsWQRhX54uOi18IdhI7tUizXre2LphnqK6fhrGo=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cGM9DYELw3LtGyfbB+2vTrc0QIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			YFNDGk+VabCu6MEuRRkv8rZBpStlR8r6hi+LBqz1zdU=
+			</data>
+		</dict>
+		<key>Modules/LoginSDK.swiftmodule/armv7s.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZT2oGdvGrf5hpqEFpBC+qeP5mU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mwfr9Jc1e+uf6xPc58xk40RXdpYaIna+uKz9rVxvF1c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

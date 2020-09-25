@@ -1,16 +1,16 @@
 PODS:
-  - LoginSDK (0.85.23)
+  - LoginSDK (0.85.36gh)
 
 DEPENDENCIES:
-  - LoginSDK (= 0.85.23)
+  - LoginSDK (= 0.85.36gh)
 
 SPEC REPOS:
   https://github.com/loginid1/LoginSDKSpecs.git:
     - LoginSDK
 
 SPEC CHECKSUMS:
-  LoginSDK: 29efe5e588ae58b090a71dbd7cff8fe518a1c115
+  LoginSDK: 74f0d7383548c49521dca04274d6e30fc4f57fd7
 
-PODFILE CHECKSUM: eb5b0f63c35dde946b568edcba931d44587d2e3a
+PODFILE CHECKSUM: 0acfd7c80f979c1f7f8dc27d39714d22e12b791c
 
 COCOAPODS: 1.9.3

@@ -6,7 +6,7 @@ target 'LendingPlaid' do
   use_frameworks!
 
   # Pods for LendingPlaid
-  pod 'LoginSDK','0.85.23', :source => 'https://github.com/loginid1/LoginSDKSpecs.git'
+  pod 'LoginSDK','0.85.36gh', :source => 'https://github.com/loginid1/LoginSDKSpecs.git'
 
   target 'LendingPlaidTests' do
     inherit! :search_paths
